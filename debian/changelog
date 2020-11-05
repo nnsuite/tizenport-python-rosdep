@@ -1,0 +1,5 @@
+python-rosdep-modules (0.19.0-1) xenial yakkety zesty artful bionic cosmic disco eoan jessie stretch buster; urgency=low
+
+  * source package automatically created by stdeb 0.9.0
+
+ -- Tully Foote, Ken Conley <tfoote@osrfoundation.org>  Mon, 06 Apr 2020 12:45:16 -0700

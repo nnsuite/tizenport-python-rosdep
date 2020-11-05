@@ -1,0 +1,20 @@
+Source: python-rosdep-modules
+Maintainer: Tully Foote, Ken Conley <tfoote@osrfoundation.org>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+X-Python3-Version: >= 3.4
+
+
+
+Package: python-rosdep-modules
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, ca-certificates, python-rospkg-modules (>= 1.1.10), python-yaml, python-catkin-pkg-modules (>= 0.4.0), python-rosdistro-modules (>= 0.7.5), sudo
+Conflicts: python-rosdep (<< 0.18.0), python-rosdep2
+Replaces: python-rosdep (<< 0.18.0)
+Description: rosdep package manager abstraction tool for ROS
+ Command-line tool for installing system dependencies on a variety of platforms.
+
+
+
